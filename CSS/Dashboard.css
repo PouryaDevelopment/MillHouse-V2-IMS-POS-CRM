@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.selected{
+animation: Jumpselect 0.6s linear infinite;
+
+}
+
+@keyframes Jumpselect
+{
+	0%{
+		transform: translateY(0);
+	}
+	25%{
+		transform: translateY(-3px);
+	}
+	50%{
+		transform: translateY(-6px);
+	}
+	75%{
+		transform: translateY(-3px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#Sidebarcontainer{
+position: relative;
+z-index: 1000;
+}
